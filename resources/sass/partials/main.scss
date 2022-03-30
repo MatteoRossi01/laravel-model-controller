@@ -1,0 +1,41 @@
+/* Main */
+.box-movies {
+    width: 70%;
+    height: 480px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    flex-wrap: wrap;
+
+    .movie-card {
+        width: 180px;
+        height: 220px;
+        border: 1px solid #000;
+        background-color: rgb(48, 44, 44);
+        box-shadow: 3px 3px 3px 3px rgba(16, 12, 12, 0.3);
+        color: rgb(85, 85, 85);
+        text-decoration: none;
+        display: flex;
+        align-items: center;
+        flex-direction: column; 
+
+        h3 {
+            color: #000;
+            text-transform: uppercase;
+            margin-top: 13px;
+            font-size: 16px;
+            text-align: center;
+        }
+
+        ul {
+            list-style: none;
+        }
+
+        li {
+            margin-top: 8px;
+            font-size: 13px;
+            text-align: center;
+        }
+    }
+}
+/* Main */
